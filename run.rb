@@ -7,6 +7,10 @@ module Run
   def tested_on_master
     1
   end
+
+  def initially_uncovered
+    1
+  end
 end
 
   
