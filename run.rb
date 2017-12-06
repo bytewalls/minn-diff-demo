@@ -11,6 +11,14 @@ module Run
   def initially_uncovered
     1
   end
+
+  def new_covered
+    1
+  end
+
+  def new_uncovered
+    1
+  end
 end
 
   

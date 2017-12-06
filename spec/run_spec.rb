@@ -5,7 +5,11 @@ describe Run do
     expect(Run.tested_on_master_and_pr).to eq 1
   end
 
-  it 'tested_on_master' do
-    expect(Run.tested_on_master).to eq 1
+  it 'initially_uncovered' do
+    expect(Run.initially_uncovered).to eq 1
+  end
+
+  it 'new_covered' do
+    expect(Run.new_covered).to eq 1
   end
 end
