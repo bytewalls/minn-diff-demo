@@ -11,6 +11,10 @@ module Run
   def initially_uncovered
     1
   end
+
+  def stuff
+    1
+  end
 end
 
   
