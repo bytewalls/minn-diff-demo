@@ -5,7 +5,7 @@ module Run
   end
 
   def tested_on_master
-    1
+    2
   end
 
   def initially_uncovered
